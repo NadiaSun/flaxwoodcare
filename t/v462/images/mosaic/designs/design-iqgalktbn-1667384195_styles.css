@@ -1673,6 +1673,7 @@
         padding: 32px !important;
     }
 }
+
 @media (min-width: 600px) {
     .cd-request-popup .mp-form__btn {
         text-align: center;
@@ -1749,6 +1750,7 @@
     transition: 0.2s ease;
     cursor: pointer;
     appearance: none;
+	width: 60vw;
 }
 .cd-request-popup__close {
     width: 48px;
@@ -1830,3 +1832,8 @@
 	top: -0.6em;
   }
   
+@media (min-width: 900px) {
+    .cd-btn {
+        width: 450px;
+    }
+}
